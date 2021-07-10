@@ -161,7 +161,7 @@ class Wavegenerator():
           self.decideMove()
           self.ticks = 1
           self.maxTicks = 2
-          self.waveFile = open("texts/waveTexts/WaveGenerator.txt","r")
+          self.waveFile = open("texts/waveTexts/WaveGenerator2.txt","r")
 
      def getWave(self):
           self.game.displayboard.nextWaveButton.canPress = False
