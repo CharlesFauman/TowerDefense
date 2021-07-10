@@ -12,6 +12,8 @@ the texs/waveTexts folder
 Note you can select a tower to sell, upgrade, or change its targetting,
 but you must currently have 'None' selected on the side menu of towers
 
+[readme/capture.png]
+
 
 
 I wrote this beauty originally in highschool, in 2015. This was my first

@@ -161,7 +161,7 @@ class Wavegenerator():
           self.decideMove()
           self.ticks = 1
           self.maxTicks = 2
-          self.waveFile = open("texts/waveTexts/WaveGenerator2.txt","r")
+          self.waveFile = open("texts/waveTexts/WaveGenerator.txt","r")
 
      def getWave(self):
           self.game.displayboard.nextWaveButton.canPress = False
@@ -416,7 +416,7 @@ class Displayboard:
 class Towerbox:
      def __init__(self, game):
           self.game = game
-          self.box = Listbox(master =game.frame, selectmode = "SINGLE", font = ("times",20), height = 21, width = 16, bg = "gray", fg = "dark blue", bd = 1, highlightthickness = 0)
+          self.box = Listbox(master =game.frame, selectmode = "SINGLE", font = ("times",18), height = 18, width = 13, bg = "gray", fg = "dark blue", bd = 1, highlightthickness = 0)
           self.box.insert(END, "<None>")
           for i in towerDictionary:
                self.box.insert(END, i)
