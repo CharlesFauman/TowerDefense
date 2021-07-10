@@ -12,7 +12,7 @@ the texs/waveTexts folder
 Note you can select a tower to sell, upgrade, or change its targetting,
 but you must currently have 'None' selected on the side menu of towers
 
-[readme/capture.png]
+![gameplay](readme/capture.png)
 
 
 
